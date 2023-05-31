@@ -1,0 +1,43 @@
+.product-card {
+    position: relative;
+    width: 300px;
+    height: 530px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    box-shadow: 3px 3px 15px #95A0A7;
+}
+
+.card-head img {
+    width: 286px;
+    height: 286px;
+    border-radius: 8px;
+    margin: 7px;
+}
+
+.card-head p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    margin: 7px;
+}
+
+.card-body p {
+    margin: 7px;
+    line-height: 10px;
+}
+
+.card-btn {
+    background-color: #FFE0B3;
+    border: none;
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+    position: absolute;
+    bottom: 0;
+    height: 48px;
+}
+
+.card-btn:hover {
+    background-color: orange;
+}
